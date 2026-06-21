@@ -21,9 +21,9 @@ function levelUp(){
     h2.innerText = `level ${level}`;
     let randIndx = Math.floor(Math.random()*4);
     let randcolor = btns[randIndx];
-    let ank = document.querySelector(`.${randcolor}`);
+    let randomBtn = document.querySelector(`.${randcolor}`);
     gameSeq.push(randcolor);
-    gameflash(ank); 
+    gameflash(randomBtn); 
 };
 
 function gameflash(el){
@@ -74,7 +74,7 @@ function checkAns(idx){
 function btnpress(){
     let btn = this;
     userFlash(this);
-    userColor = btn.getAttribute("id");
+    let userColor = btn.getAttribute("id");
     userSeq.push(userColor);
     checkAns(userSeq.length-1);
 };
