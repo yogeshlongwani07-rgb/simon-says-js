@@ -64,14 +64,6 @@ No additional dependencies or installation steps are required.
 * The user's input is checked against the generated sequence.
 * If a mismatch occurs, the game resets and displays the final score.
 
-## 🔮 Future Improvements
-
-* Persistent high score using Local Storage
-* Sound effects for each button
-* Mobile touch optimization
-* Difficulty levels
-* Start and restart buttons
-* Leaderboard support
 
 ## 👨‍💻 Author
 
